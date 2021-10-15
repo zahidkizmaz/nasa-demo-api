@@ -1,14 +1,17 @@
 import uvicorn
 
 from api import create_app
+from settings.config import settings
+
+app = create_app()
 
 
 def main() -> None:
     """Entrypoint of the application."""
     uvicorn.run(
-        create_app(),
-        port=8080,
-        host="127.0.0.1",
+        app,
+        port=settings.PORT,
+        host=settings.HOST,
     )
 
 

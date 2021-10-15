@@ -1,0 +1,10 @@
+[default]
+PORT = 8888
+HOST = "localhost"
+DEBUG = true
+
+[development]
+DEBUG = true
+
+[production]
+DEBUG = false

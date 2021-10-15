@@ -2,9 +2,9 @@
 PORT = 8888
 HOST = "localhost"
 DEBUG = true
-
-[development]
-DEBUG = true
+NASA_API_URL = "https://api.nasa.gov/"
+NASA_API_KEY = {"api_key"="DEMO_KEY"}
+APOD_URL_PATH = "planetary/apod"
 
 [production]
 DEBUG = false

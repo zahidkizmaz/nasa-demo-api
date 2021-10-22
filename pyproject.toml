@@ -11,6 +11,7 @@ fastapi = "^0.70.0"
 uvicorn = "^0.15.0"
 dynaconf = "^3.1.7"
 aiohttp = {version = "^3.7.4", extras = ["speedups"]}
+Jinja2 = "^3.0.2"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"

@@ -11,6 +11,7 @@ fastapi = "^0.70.0"
 uvicorn = "^0.15.0"
 dynaconf = "^3.1.7"
 aiohttp = {version = "^3.7.4", extras = ["speedups"]}
+Jinja2 = "^3.0.2"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
@@ -21,6 +22,7 @@ mypy = "^0.910"
 pytest = "^6.2.5"
 pre-commit = "^2.15.0"
 requests-mock = "^1.9.3"
+pytest-env = "^0.6.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

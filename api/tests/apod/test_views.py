@@ -1,7 +1,7 @@
 from starlette import status
 
 
-def test_get_apod(client, apod_api_mock):
+def test_get_apod(client):
     endpoint_url_path = "/api/apod/"
     response = client.get(endpoint_url_path)
 
